@@ -1,14 +1,49 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
+<ion-header no-borders>
+  <ion-navbar  color="light">
+
+    <ion-title >
+    Flowers shop 
     </ion-title>
-  </ion-navbar>
+
+</ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
-</ion-content>
+<ion-content class="card-background-page" padding>
+  
+      <ion-card  (click)="goToRoseList()">
+        <img src="http://www.url-dir.com/wp-content/uploads/roses/red-Red-And-White-Roses-Background-Tumblr-and-white-roses-wallpapers-free-fybak-hoontoidly-tumblr-black-images-hoontoidly-Red-And-White-Roses.jpg"/>
+        <div class="card-title"> Roses</div>
+        <div class="card-subtitle">$15 - $100</div>
+      </ion-card>
+    
+      <ion-card  (click)="goToLilliesList()">
+        <img src="https://www.longfield-gardens.com/_ccLib/image/articles/ADDI1-136.jpg"/>
+        <div class="card-title"> Lillies</div>
+        <div class="card-subtitle">$10 - $200</div>
+      </ion-card>
+    
+      <ion-card  (click)="goToPeonyList()">
+        <img src="http://xinature.com/wp-content/uploads/2016/08/flowers-sea-shell-white-peonies-land-vase-pink-desktop-flower-hd-wallpaper.jpg"/>
+        <div class="card-title">Peonys'</div>
+        <div class="card-subtitle">$10 - $110</div>
+      </ion-card>
+    
+      <ion-card  (click)= "goToTulipsList()">
+        <img src="https://a00d4717bedc7c196a05-9990652a05993e9ce2692d2d425b2fb5.ssl.cf3.rackcdn.com/product_images/PRODUCT_FLOWERS_Festive_Tulips_and_Freesias_image1.jpg"/>
+        <div class="card-title">Tulips</div>
+        <div class="card-subtitle">$11 - $370</div>
+      </ion-card>
+    
+      <footer>
+        <p padding> &copy; Prajakta Mokal <sup>2017</sup></p>
+          <ion-fab right bottom>
+              <button ion-fab color="light"><ion-icon name="ios-arrow-dropleft-circle-outline"></ion-icon></button>
+              <ion-fab-list side="top">
+                <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+                <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+                <button ion-fab><ion-icon name="logo-snapchat"></ion-icon></button>
+                <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+              </ion-fab-list>
+            </ion-fab>
+      </footer>
+    </ion-content>

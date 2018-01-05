@@ -1,0 +1,63 @@
+<!--
+  Generated template for the LilliesListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Lillies' Category</ion-title>
+    <ion-icon style="position:absolute; top: 20px; right: 29px;" ios="ios-close-circle" md="md-close-circle" (click)="goHome()"></ion-icon>
+  </ion-navbar>
+  <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+</ion-header>
+
+
+<ion-content padding>
+<ion-card>
+  <img src="https://cimages.prvd.com/is/image/ProvideCommerce/PF_17_L607_MINIMUM_VA0004_W1_SQ?$PFCProductImage$"/>
+  <div class="title">Red & White Lilly Bouquet</div>
+  <div class="cost"> $29 </div>
+  <div class="sub-title"> Description: 25 Lillies with Vase.</div>
+  <button ion-button icon-end icon-only (click)="buy('Red & White Lilly Bouquet')"><ion-icon ios="ios-cart" md="md-cart"></ion-icon></button>
+</ion-card>
+
+<ion-card>
+  <img src="https://1bw2f213jaon43ao0kn1uk1t-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/FTD-Faithful-Blessings-Bouquet.jpg"/>
+  <div class="title"> White lillies Bouquet</div>
+  <div class="cost"> $49 </div>
+  <div class="sub-title"> Description: 45 Lillies with Vase.</div>
+  <button ion-button icon-end icon-only (click)="buy('White Lillies Bouquet')"><ion-icon ios="ios-cart" md="md-cart"></ion-icon></button>
+</ion-card>
+
+<ion-card>
+  <img src="https://cdn.bloomnation.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/i/fiery_lily_and_rose_by_teleflora_15_1_4_1_47_1_98.jpg"/>
+  <div class="title">Fiery Rose & Lillies Bouquet</div>
+  <div class="cost"> $38 </div>
+  <div class="sub-title">Description: Red Roses with Orange Lillies & Vase.</div>
+  <button ion-button icon-end icon-only (click)="buy('Fiery Rose & Lillies Bouquet')"><ion-icon ios="ios-cart" md="md-cart"></ion-icon></button>
+</ion-card>
+
+<ion-card>
+  <img src="https://shop.r10s.jp/hanashinwa/cabinet/gift/imgrc0065778735.jpg"/>
+  <div class="title">Pink Lillies Bouquet</div>
+  <div class="cost"> $29 </div>
+  <div class="sub-title"> Description: Pink Enchanted Lillies with an Oval Vase. </div>
+  <button ion-button icon-end icon-only (click)="buy('Pink Lillies Bouquet')" ><ion-icon ios="ios-cart" md="md-cart"></ion-icon></button>
+</ion-card>
+
+<footer>
+    <p padding> &copy; Prajakta Mokal <sup>2017</sup></p>
+      <ion-fab right bottom>
+          <button ion-fab color="light"><ion-icon name="ios-arrow-dropleft-circle-outline"></ion-icon></button>
+          <ion-fab-list side="top">
+            <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+            <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+            <button ion-fab><ion-icon name="logo-snapchat"></ion-icon></button>
+            <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+          </ion-fab-list>
+        </ion-fab>
+  </footer>
+
+</ion-content>

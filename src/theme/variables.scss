@@ -35,7 +35,7 @@ $app-direction: ltr;
 
 $colors: (
   primary:    #488aff,
-  secondary:  #32db64,
+  secondary:  #fff235,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222
@@ -86,3 +86,37 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+$toolbar-ios-title-text-align : center;
+
+.toolbar-title-md {
+  text-align: center;
+}
+
+ion-navbar{
+  background-color: linear-gradient(to bottom right, #ffff00 0%, #990099 100%) !important;
+}
+ion-card {
+  text-align: center;
+  font-family: 'Niconne', cursive;
+
+}
+
+.title{
+  font-size: 38px;
+  color: darkslategray;
+}
+
+.cost{
+  font-size: 29px;
+  color: gray;
+}
+
+.sub-title{
+  font-size: 19px;
+  color: black;
+}
+.toolbar-background{
+ background-color: linear-gradient(to bottom right, #ffff00 0%, #cc3399 100%);
+}
+
+

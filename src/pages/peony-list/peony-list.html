@@ -1,0 +1,78 @@
+<!--
+  Generated template for the PeonyListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+        
+      <ion-navbar>
+          <ion-title>
+            Peonies Category
+          </ion-title>
+          <ion-icon style="position:absolute; top: 20px; right: 29px;" ios="ios-close-circle" md="md-close-circle" (click)="goHome()"></ion-icon>          
+         </ion-navbar>
+             <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+        </ion-header>
+        
+        
+        <ion-content padding>
+            <ion-card>
+                  <img src="https://www.whiteflowerfarm.com/mas_assets/cache/image/3/6/9/0/13968.Jpg"/>
+                  <div class="title">Velvet Purple Peony Bouquet</div>
+                  <div class="cost"> $29 </div>
+                  <div class="sub-title"> Description: 25 Peonys' with a transparent Vase.</div>
+                  <button ion-button icon-end icon-only (click)="buy('Velvet Purple Peony Bouquet')">
+                        <ion-icon ios="ios-cart" md="md-cart">
+                          </ion-icon>
+                    </button>
+            </ion-card>
+            
+            <ion-card>
+                  <img src="https://c1.staticflickr.com/8/7329/9026821513_c7195f0e16_b.jpg"/>
+                  <div class="title"> Pretty Peony Bouquet</div>
+                  <div class="cost"> $49 </div>
+                  <div class="sub-title"> Description: 45 Peonies w/ a Clear Vase.</div>
+                  <button ion-button icon-end icon-only (click)="buy('Pretty Peony Bouquet')">
+                        <ion-icon ios="ios-cart" md="md-cart">
+                          </ion-icon>
+                    </button>
+            </ion-card>
+            
+            <ion-card>
+                  <img src="https://cdn.shopify.com/s/files/1/1907/6789/products/bouquet_peach1_c.jpg?v=1495980976"/>
+                  <div class="title">Blush Peach White Peonies Bouquet</div>
+                  <div class="cost"> $38 </div>
+                  <div class="sub-title">Description: Blush Peach White Peonies w/o Vase.</div>
+                  <button ion-button icon-end icon-only (click)="buy('Blush Peach White Peonies Bouquet')">
+                        <ion-icon ios="ios-cart" md="md-cart">
+                          </ion-icon>
+                    </button>
+            </ion-card>
+            
+            <ion-card>
+                  <img src="https://i.pinimg.com/736x/76/7c/04/767c0411af777664d406890d87d0cb33--ranunculus-bridal-bouquet-purple-hydrangea-bouquet.jpg"/>
+                  <div class="title">White Peonies Bouquet</div>
+                  <div class="cost"> $29 </div>
+                  <div class="sub-title"> Description: White Peonies with a Crystal Broche. </div>
+                  <button ion-button icon-end icon-only (click)="buy('White Peonies Bouquet')">
+                        <ion-icon ios="ios-cart" md="md-cart">
+                          </ion-icon>
+                        </button>
+            </ion-card>
+        
+            <footer>
+                        <p padding> &copy; Prajakta Mokal <sup>2017</sup></p>
+                          <ion-fab right bottom>
+                              <button ion-fab color="light"><ion-icon name="ios-arrow-dropleft-circle-outline"></ion-icon></button>
+                              <ion-fab-list side="top">
+                                <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+                                <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+                                <button ion-fab><ion-icon name="logo-snapchat"></ion-icon></button>
+                                <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+                              </ion-fab-list>
+                            </ion-fab>
+                      </footer>
+
+        </ion-content>
+        
